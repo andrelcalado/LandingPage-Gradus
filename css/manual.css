@@ -1,0 +1,287 @@
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(6, 108, 181);
+    position: relative;
+}
+
+.cores{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+.apresentacao{
+    background-color: white;
+}
+
+.top-manual{
+    margin-top: 100px;
+}
+
+.logo-manual{
+    padding-top: 150px;
+    padding-right: 40px;
+}
+
+.text-manual{
+    width: 50vw;
+}
+
+.text-personalidade{
+    width: 30vw;
+}
+
+.logo-white{
+    margin-top: 150px;
+    margin: auto;
+    background: url("../img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 105px;
+    display: block;
+}
+
+.separator-manual{
+    width: 100vw;
+    height: 83px;
+}
+
+.personalidade{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.personalidade-content{
+    display: inline-block;
+    align-items: center;
+}
+
+.marca-guide{
+    height: 90vh;
+    background-color: white;
+}
+
+.indicacoes-proibidas{
+    height: 100vh;
+    background-color: white;
+}
+
+.tipografia{
+    height: 90vh;
+    background-color: white;
+}
+
+.inverted{
+    color: rgb(6, 109, 181);
+}
+
+.title-marca{
+    border-bottom: 5px solid rgb(6, 109, 181);
+}
+
+.marca-respiro{
+    margin:auto;
+    width: 700px;
+    height: 250px;
+    background: url("../img/manual/marca.png") no-repeat round;
+}
+
+.zona-exclusao{
+    margin:auto;
+    width: 700px;
+    height: 250px;
+    background: url("../img/manual/exclusao-01.png") no-repeat round;
+}
+
+.marca-content{
+    margin: 50px;
+}
+
+.cores-container{
+    display: flex;
+    justify-content: center;
+}
+
+.cor-desc{
+    margin-right: 20px;
+}
+
+.cor-bolinha{
+    margin-top: 30px;
+}
+
+.cor{
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.cor-p-1{
+    background-color: #4BBFE9;
+}
+
+.cor-p-2{
+    background-color: #006EB5;
+}
+
+.cor-s-1{
+    background-color: #183356;
+}
+
+.cor-s-2{
+    background-color: #EEEEEE;
+}
+
+.cores-content{
+    display: flex;
+    justify-content: center;
+}
+
+.degrade{
+    background: url("../img/manual/degradê.png") round no-repeat;
+    width: 130px;
+    height: 115px;
+}
+
+.degrade-align{
+    display: flex;
+    justify-content: center;
+}
+
+.font{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.font-p{
+    font-family: 'Cabin Bold';
+}
+
+.font-s{
+    font-family: 'Cabin Regular';
+}
+
+.download{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(6, 108, 181);
+    display: flex;
+    justify-content: center;
+}
+
+.botao-down{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 17px;
+    user-select: none;
+}
+
+.fotografia{
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+}
+
+.foto1{
+    background: url("../img/manual/foto1-01.png") round no-repeat;
+}
+
+.foto2{
+    background: url("../img/manual/foto2-01.png") round no-repeat;
+}
+
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: #006EB5;
+}
+
+.rolar-baixo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+
+.rolar-baixo > .select{
+    width: 20px;
+    height: 20px;
+}
+
+.delimitacoes{
+    display: flex;
+    justify-content: center;
+}
+
+.largura-minima{
+    height: 70vh;
+    background-color: white;
+}
+
+.delimitacao0{
+    margin-right: 40px;
+}
+
+.delimitacao0-img{
+    width: 200px;
+    height: 100px;
+    background: url("../img/manual/pixels.png") no-repeat round;
+}
+
+.fundo-colorido-img{
+    width: 1100px;
+    height: 300px;
+    background: url("../img/manual/fundo-colorido-01.png") no-repeat round;
+}
+
+.monocromatica-img{
+    width: 900px;
+    height: 300px;
+    background: url("../img/manual/monocromatica-01.png") no-repeat round;
+}
+
+.papelaria{
+    width: 500px;
+    height: 400px;
+    background: url("../img/manual/papelaria-01.png") no-repeat round;
+}
+
+.regra-convivencia-img{
+    width: 750px;
+    height: 250px;
+    background: url("../img/manual/regra-convivencia-01.png") no-repeat round;
+}
+
+.indicacoes-proibidas-img{
+    width: 700px;
+    height: 400px;
+    background: url("../img/manual/indicacoes-proibidas-01.png") no-repeat round;
+}
+
+.fundo-colorido-align{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.delimitacao1-img{
+    width: 200px;
+    height: 100px;
+    background: url("../img/manual/cm-01.png") no-repeat round;
+}
+
+.delimitacao-align{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+}

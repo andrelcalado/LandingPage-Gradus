@@ -1,0 +1,391 @@
+@font-face{
+    font-family: "Cabin Regular";
+    src: url("./font/Cabin-Regular.ttf");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family: "Cabin Bold";
+    src: url("./font/Asap-SemiBold.ttf");
+    font-weight:normal;
+    font-style:normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+.paginas{
+    display: flex;
+    transition: transform 500ms;
+}
+
+.pagina-transition{
+    transform: translate(-100vw, 0);
+}
+
+.pagina-transition2{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-content{
+    width: 95vw;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    background-attachment: fixed;
+    z-index: 2;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.055);
+    border-radius: 0px 0px 10px 0px;
+    height: 60px;
+}
+
+.logo{
+    float: left;
+    margin: 15px;
+    width: 160px;
+    height: 30px;
+    background: url("../img/logo.png") no-repeat round;
+}
+
+.links{
+    width: 1000px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.botao{
+    float: left;
+    padding: 20px;
+    width: fit-content;
+    font-family: 'Cabin Regular';
+    text-align: center;
+    color: #183356;
+    font-size: 15px;
+    user-select: none;
+    cursor: pointer;
+    transition: border-bottom 200ms;
+    position: relative;
+    display: block;
+}
+
+.botao-hide{
+    display: none;
+}
+
+.botao:hover{
+    background-color: rgb(6, 108, 181);
+    color: white;
+}
+
+.botao-select{
+    background-color: rgb(6, 108, 181);
+    color: white;
+}
+
+.select{
+    margin: 5px;
+    position: relative;
+    height: 5px;
+    top: 1px;
+    background: url("../img/select.png") round center;
+    background-repeat: no-repeat;
+}
+
+.slide{
+    background: rgb(40, 34, 46) fixed;
+    width: 100vw;
+    /* height: calc(100vh - 66px); */
+    height: 100vh;
+    /* background-attachment: fixed; */
+}
+
+.seta{
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 60px;
+    user-select: none;
+    cursor: pointer;
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    transform: translate(0 25%);
+}
+
+.seta-left{
+    float: left;
+    position: relative;
+    z-index: 0;
+}
+
+.seta-right{
+    position: relative;
+    left: -20px;
+    float: right;
+    z-index: 0;
+}
+
+.bolinhas{
+    display: flex;
+    position: relative;
+    top: 90%;
+    justify-content: center;
+}
+
+.bolinha{
+    display: inline-block;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 3px #009A90 solid;
+    border-radius: 100%;
+    transition: background-color 400ms;
+    z-index: 0;
+}
+
+.bolinha:hover{
+    background-color: rgb(214, 14, 14);
+}
+
+.o-sistema{
+    position: relative;
+    height: 100vh;
+}
+
+.o-sistema .item{
+    position: relative;
+    margin-top: 15%;
+    transition: opacity 400ms;
+}
+
+.opacity{
+    opacity: 0;
+}
+
+.o-que-faz{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    z-index: -2;
+}
+
+.overlay{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(6, 108, 181, 0.7);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition: opacity 400ms;
+}
+
+.itens{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 300px;
+    height: 400px;
+    /* background-color: white; */
+    margin: 30px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Cabin Regular';
+    transition: opacity 400ms;
+}
+
+.title{
+    margin: auto;
+    color:white;
+    font-family: 'Cabin Bold';
+    font-weight: normal;
+    user-select: none;
+    text-align: center;
+    padding: 10px;
+    padding-top: 70px;
+    font-size: 20px;
+    border-bottom: 5px solid white;
+    width: 300px;
+    transition: opacity 400ms;
+}
+
+.text{
+    margin: auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Cabin Regular';
+}
+
+.item .icon1{
+    width: 150px;
+    height: 150px;
+    background: url("../img/icons/level.png") round no-repeat;
+    display: inline-block;
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.item .icon2{
+    width: 150px;
+    height: 150px;
+    background: url("../img/icons/network.png") round no-repeat;
+    display: inline-block;
+}
+
+.item .icon3{
+    width: 150px;
+    height: 150px;
+    background: url("../img/icons/list.png") round no-repeat;
+    display: inline-block;
+}
+
+
+.como-funciona{
+    width: 100vw;
+    height: 90vh;
+    z-index: -2;
+    position: relative;
+    /* background: transparent; */
+}
+
+.separator{
+    width: 100vw;
+    border-bottom: rgb(34, 203, 255) solid 3px;
+}
+
+.sistema-gradus{
+    position: relative;
+    z-index: -2;
+}
+
+.video-conceitual{
+    width: 854px;
+    height: 480px;
+    background-color: rgba(255, 255, 255, 0.486);
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    transition: opacity 400ms;
+}
+
+.video-conceitual video{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 844px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.publico-alvo{
+    width: 100vw;
+    height: 90vh;
+    z-index: -2;
+    position: relative;
+    /* background: transparent; */
+}
+
+.desc{
+    margin: auto;
+    width: 60vw;
+    transition: opacity 400ms;
+}
+
+.icon4{
+    background: url("../img/icons/Medicos-01.png") round no-repeat;
+    height: 210px;
+    width: 200px;
+}
+
+.icon5{
+    background: url("../img/icons/Enf-01.png") round no-repeat;
+    height: 215px;
+    width: 200px;
+}
+
+.icon6{
+    background: url("../img/icons/Tec-Enf-01.png") round no-repeat;
+    height: 215px;
+    width: 200px;
+}
+
+.icon7{
+    background: url("../img/icons/ADM-01-01.png") round no-repeat;
+    height: 215px;
+    width: 200px;
+}
+
+.onde{
+    /* background: transparent; */
+    width: 100vw;
+    height: 90vh;
+    z-index: -2;
+    position: relative;
+    text-align: center;
+}
+
+.icon8{
+    background: url("../img/icons/hospital.png") round no-repeat;
+}
+
+.icon9{
+    background: url("../img/icons/tablet.png") round no-repeat;
+    width: 100px;
+    height: 152px;
+    display: inline-block;
+}
+
+.icon10{
+    background: url("../img/icons/nuvem.png") round no-repeat;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+}
+
+.redes-sociais{
+    background-color: rgb(6, 109, 181);
+
+}
+
+.redes-sociais ul{
+    text-align: center;
+}
+
+.social{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.social0{
+    background-color: white;
+}
+
+.social1{
+    background-color: white;
+}
+
+.social2{
+    background-color: white;
+}
